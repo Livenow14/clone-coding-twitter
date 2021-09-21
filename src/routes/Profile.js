@@ -1,7 +1,7 @@
 import {authService, dbService} from "fbase";
 import {useEffect, useState} from "react";
 import {useHistory} from "react-router-dom";
-import Nweet from "../components/Nweet";
+import Nweet from "components/Nweet";
 
 const Profile = ({userObj, refreshUser}) => {
     const history = useHistory();
